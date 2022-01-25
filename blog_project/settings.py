@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 ]
 CUSTOM_APPS = [
     'blogapp.apps.BlogappConfig',
+    'accounts.apps.AppConfig',
 ]
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
