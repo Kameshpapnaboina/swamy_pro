@@ -1,0 +1,13 @@
+<html>
+    <head></head>
+    <body>
+        <div class=container align=center>
+            <h1>STUDENT Registration</h1><br><br>
+            <form method='POST'>
+                {{form2.as_p}}
+                {% csrf_token %}
+                <br><br><a href='#' class=btn btn-primary ><button>Submit</button></a>
+            </form>
+        </div>
+    </body>
+</html>
