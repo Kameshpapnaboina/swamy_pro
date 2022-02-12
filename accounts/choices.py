@@ -1,1 +1,5 @@
-print("learning python is very dificult")
+Choices = (
+    ('P', 'Pending'),
+    ('A', 'Approved'),
+    ('R', 'Rejected'),
+)
